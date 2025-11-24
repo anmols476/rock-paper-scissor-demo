@@ -26,3 +26,7 @@ elif user_action == "scissors":
         print("Scissors cuts paper! You win!")
     else:
         print("Rock smashes scissors! You lose.")
+
+again = input("Play again? (y/n): ").lower()
+if again!="y":
+    break
